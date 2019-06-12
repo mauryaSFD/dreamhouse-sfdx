@@ -1,5 +1,7 @@
 trigger InitPropertyDateListed on Property__c (before insert) {
 
+    /*Testing with git hub on dream house project */
+
     /* 
        For demo purpose: when properties are added, generate a random value for Date_Listed__c 
        (between 5 and 50 days ago)
